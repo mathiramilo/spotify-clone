@@ -22,6 +22,7 @@ const UploadModal = () => {
   const router = useRouter()
 
   const { register, handleSubmit, reset } = useForm<FieldValues>({
+    //@ts-ignore
     author: '',
     title: '',
     song: null,
